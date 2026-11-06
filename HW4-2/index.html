@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>راهنماخانه — راهنمای شروع یادگیری وب</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header-nav">
+    <div class="header-inner">
+      <h1 class="brand">راهنماخانه</h1>
+      <nav class="main-nav" aria-label="ناوبری اصلی">
+        <a class="nav-link" href="#chapters">فصل‌ها</a>
+        <a class="nav-link" href="#request">درخواست راهنما</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-container">
+
+    <section class="hero-section">
+      <div class="hero-text">
+        <h2 class="hero-title">راهنمای شروع یادگیری وب</h2>
+        <p class="hero-desc">
+          سه فصل کوتاه برای کسی که می‌خواهد ساختار صفحه، ظاهر و ثبت تغییرهای خود را مرور کند.
+        </p>
+        
+        <div class="spec-grid">
+          <div class="spec-card">
+            <span class="spec-key">قالب</span>
+            <span class="spec-value">PDF آموزشی</span>
+          </div>
+          <div class="spec-card">
+            <span class="spec-key">حجم</span>
+            <span class="spec-value">۲۰ صفحه</span>
+          </div>
+          <div class="spec-card">
+            <span class="spec-key">زبان</span>
+            <span class="spec-value">نسخهٔ فارسی</span>
+          </div>
+        </div>
+        
+        <div class="hero-note">
+          PDF در این تمرین تولید یا ارسال نمی‌شود.
+        </div>
+      </div>
+
+      <div class="hero-cover">
+        <div class="cover-tag">وب</div>
+        <h3 class="cover-title">راهنمای شروع<br>یادگیری وب</h3>
+        <p class="cover-footer">نسخهٔ آموزشی · PDF</p>
+      </div>
+    </section>
+
+    <section class="toc-section" id="chapters">
+      <h3 class="section-title">فصل‌ها</h3>
+      <div class="toc-grid">
+        <a class="toc-card" href="#chapter-html">
+          <span class="toc-num">۰۱</span>
+          <span class="toc-text">HTML : ساختار و معنا</span>
+        </a>
+        <a class="toc-card" href="#chapter-css">
+          <span class="toc-num">۰۲</span>
+          <span class="toc-text">CSS : ظاهر و چیدمان</span>
+        </a>
+        <a class="toc-card" href="#chapter-git">
+          <span class="toc-num">۰۳</span>
+          <span class="toc-text">Git : ثبت و مرور تغییرها</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="chapters-section">
+      <div class="chapters-grid">
+        <article class="chapter-card" id="chapter-html">
+          <div class="chapter-top">
+            <span class="chapter-num">۰۱</span>
+            <h4 class="chapter-title">HTML : ساختار و معنا</h4>
+            <span class="chapter-tag">۳ صفحه</span>
+          </div>
+          <p class="chapter-desc">چطور عنوان‌ها، فهرست‌ها، جدول‌ها و فرم‌ها را طوری کنار هم قرار دهیم که رابطهٔ اطلاعات روشن و صفحه قابل خواندن باشد.</p>
+        </article>
+
+        <article class="chapter-card" id="chapter-css">
+          <div class="chapter-top">
+            <span class="chapter-num">۰۲</span>
+            <h4 class="chapter-title">CSS : ظاهر و چیدمان</h4>
+            <span class="chapter-tag">۱۸ صفحه</span>
+          </div>
+          <p class="chapter-desc">تمرین انتخاب فاصله، اندازهٔ منعطف و چیدمان واکنش‌گرا برای متن‌های کوتاه و بلند، همراه با بررسی رفتار در مرورگر.</p>
+        </article>
+
+        <article class="chapter-card" id="chapter-git">
+          <div class="chapter-top">
+            <span class="chapter-num">۰۳</span>
+            <h4 class="chapter-title">Git : ثبت و مرور تغییرها</h4>
+            <span class="chapter-tag">۱۰ صفحه</span>
+          </div>
+          <p class="chapter-desc">مرور ثبت مرحله‌های کار و توضیح یک تغییر برای review. این فصل معرفی است و فرمان یا آموزش جدیدی به تمرین اضافه نمی‌کند.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="request-section-wrapper" id="request">
+      <div class="request-card">
+        <h3 class="section-title text-center">درخواست راهنما</h3>
+        
+        <div class="info-box">
+          سطح آشنایی فقط برای شناخت مخاطب است؛ همهٔ سطح‌ها همین نسخهٔ فارسی را درخواست می‌کنند.
+        </div>
+
+        <form class="guide-form" action="#" method="get" novalidate>
+          <div class="box-input">
+            <label class="field-label" for="name">نام (اختیاری)</label>
+            <input class="text-input" type="text" id="name" name="name" autocomplete="name">
+          </div>
+
+          <div class="box-input">
+            <label class="field-label" for="email">ایمیل (اجباری)</label>
+            <input class="text-input" type="email" id="email" name="email" required autocomplete="email">
+          </div>
+
+          <div class="box-input">
+            <label class="field-label" for="level">سطح آشنایی (اجباری)</label>
+            <select class="select-input" id="level" name="level" required>
+              <option value="" disabled selected>سطح آشنایی را انتخاب کنید</option>
+              <option value="beginner">تازه شروع کرده‌ام</option>
+              <option value="review">مقدماتی را دیده‌ام</option>
+              <option value="html-css">HTML/CSS می‌خواهم</option>
+            </select>
+          </div>
+
+          <div class="agreement-section">
+            <label class="agreement-label">
+              <input class="checkbox-input" type="checkbox" name="terms" required>
+              <span>مایلم راهنما را در ایمیل نمونهٔ واردشده دریافت کنم (اجباری)</span>
+            </label>
+          </div>
+
+          <div class="submit-section">
+            <button type="submit" class="submit-btn">ارسال درخواست آزمایشی</button>
+          </div>
+        </form>
+
+        <div class="contact-section">
+          <h4 class="contact-title">تماس</h4>
+          <a href="mailto:guide@example.com" class="email-link">guide@example.com</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer-text">راهنماخانه — نسخهٔ آموزشی</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>خانه فرهنگ روشن — درخواست همکاری داوطلبانه</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header-nav">
+    <h1 class="brand">خانه فرهنگ روشن</h1>
+    <nav class="main-nav" aria-label="ناوبری اصلی">
+      <a class="nav-link" href="#time">زمان‌های همکاری</a>
+      <a class="nav-link" href="#request">درخواست همکاری</a>
+    </nav>
+  </header>
+
+  <section class="banner-site" aria-labelledby="intro-title">
+    <h2 id="intro-title" class="head-card">درخواست همکاری داوطلبانه</h2>
+    <p class="pragraf">
+      برای اجرای فعالیت‌های فرهنگی محله، همکاری داوطلبانه تازه‌کارها و افراد باتجربه را می‌پذیریم.
+      علاقه خود را معرفی کنید تا امکان همکاری بعداً بررسی شود.
+    </p>
+  </section>
+
+  <div class="page-grid">
+
+    <div class="col-info">
+
+      <section class="card-border" aria-labelledby="activities-title">
+        <h3 id="activities-title" class="card-title">فعالیت‌ها</h3>
+
+        <article class="item-card">
+          <h4 class="item-title">آموزش</h4>
+          <p>همراهی با مربی برای آماده‌سازی تمرین و پاسخ به پرسش‌های مقدماتی هنرجویان.</p>
+        </article>
+
+        <article class="item-card">
+          <h4 class="item-title">رویداد</h4>
+          <p>کمک در آماده‌کردن فضا، راهنمایی مهمانان و مرتب‌کردن محل پس از برنامه.</p>
+        </article>
+
+        <article class="item-card item-card-last">
+          <h4 class="item-title">کتابخانه</h4>
+          <p>مرتب‌کردن کتاب‌ها، آماده‌کردن فهرست معرفی و کمک به خوانندگان برای یافتن کتاب.</p>
+        </article>
+      </section>
+
+      <section class="card-border" id="time" aria-labelledby="time-title">
+        <h3 id="time-title" class="card-title">زمان‌های همکاری</h3>
+        <p class="table-caption">نمونه زمان‌های همکاری</p>
+
+        <div class="table-wrap">
+          <table class="time-table">
+            <thead>
+              <tr>
+                <th scope="col">فعالیت</th>
+                <th scope="col">روز</th>
+                <th scope="col">بازه</th>
+                <th scope="col">ساعت</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>آموزش</td>
+                <td>شنبه</td>
+                <td>صبح</td>
+                <td>۹ تا ۱۲</td>
+              </tr>
+              <tr>
+                <td>رویداد</td>
+                <td>دوشنبه</td>
+                <td>عصر</td>
+                <td>۱۶ تا ۱۹</td>
+              </tr>
+              <tr>
+                <td>کتابخانه</td>
+                <td>چهارشنبه</td>
+                <td>صبح</td>
+                <td>۹ تا ۱۲</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="note-table">
+          صبح یعنی ۹ تا ۱۲ و عصر یعنی ۱۶ تا ۱۹. انتخاب بازه و علاقه در فرم فقط ترجیح شماست؛
+          تطبیق روز، ظرفیت یا تأیید همکاری در این صفحه انجام نمی‌شود.
+        </p>
+      </section>
+    </div>
+
+    <section class="card-border form-card" id="request" aria-labelledby="request-title">
+      <h3 id="request-title" class="card-title">درخواست همکاری</h3>
+
+      <form class="volunteer-form" action="#" method="post" novalidate>
+
+        <div class="box-input">
+          <label class="field-label" for="family">نام و نام خانوادگی (اجباری)</label>
+          <input class="text-input" type="text" id="family" name="family" required autocomplete="name">
+        </div>
+
+        <div class="box-input">
+          <label class="field-label" for="email">ایمیل (اجباری)</label>
+          <input class="text-input" type="email" id="email" name="email" required autocomplete="email">
+        </div>
+
+        <div class="box-input">
+          <label class="field-label" for="tell">تلفن (اختیاری)</label>
+          <input class="text-input" type="tel" id="tell" name="tell" autocomplete="tel">
+        </div>
+
+        <fieldset class="field-group">
+          <legend class="field-legend">بازه ترجیحی (اجباری؛ دقیقاً یک مورد)</legend>
+          <div class="radio-group">
+            <label class="radio-item">
+              <input class="radio-input" type="radio" name="time" value="morning" required>
+              <span>صبح</span>
+            </label>
+            <label class="radio-item">
+              <input class="radio-input" type="radio" name="time" value="evening" required>
+              <span>عصر</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="field-group">
+          <legend class="field-legend">علاقه به فعالیت‌ها (اختیاری؛ صفر تا سه مورد)</legend>
+          <div class="checkbox-group">
+            <label class="checkbox-item">
+              <input class="checkbox-input" type="checkbox" name="activities" value="teaching">
+              <span>آموزش</span>
+            </label>
+            <label class="checkbox-item">
+              <input class="checkbox-input" type="checkbox" name="activities" value="event">
+              <span>رویداد</span>
+            </label>
+            <label class="checkbox-item">
+              <input class="checkbox-input" type="checkbox" name="activities" value="library">
+              <span>کتابخانه</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="box-input">
+          <label class="field-label" for="level">سطح تجربه (اجباری)</label>
+          <select class="select-input" id="level" name="level" required>
+            <option value="" disabled selected>سطح تجربه را انتخاب کنید</option>
+            <option value="new">تازه‌کار</option>
+            <option value="some">تجربهٔ محدود</option>
+            <option value="experienced">باتجربه</option>
+          </select>
+        </div>
+
+        <div class="box-input">
+          <label class="field-label" for="description">توضیح (اختیاری)</label>
+          <textarea class="text-area" id="description" name="description" maxlength="300" rows="5"
+                    placeholder="حداکثر ۳۰۰ نویسه (تایپ یا paste)."></textarea>
+          <small class="hint">حداکثر ۳۰۰ نویسه (تایپ یا paste).</small>
+        </div>
+
+        <div class="agreement-section">
+          <label class="agreement-label">
+            <input class="checkbox-input" type="checkbox" name="terms" required>
+            <span>قوانین همکاری را می‌پذیرم (اجباری)</span>
+          </label>
+          <div class="warning-box">
+            احترام به مراجعه‌کنندگان، حفظ اطلاعات شخصی آنان و هماهنگی با مسئول فعالیت پیش از حضور لازم است.
+          </div>
+        </div>
+
+        <div class="submit-section">
+          <button type="submit" class="submit-btn">ارسال درخواست آزمایشی</button>
+        </div>
+
+      </form>
+    </section>
+
+  </div>
+
+  <section class="banner-site2" aria-labelledby="contact-title">
+    <h2 id="contact-title" class="box-title">تماس</h2>
+    <p class="contact-text">برای بررسی درخواست، عنوان خدمت موردنظر را در پیام خود بنویسید.</p>
+    <a href="mailto:volunteer@example.com" class="email-link">volunteer@example.com</a>
+    <p class="hours">شنبه تا چهارشنبه، ۹ تا ۱۷</p>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-text">خانه فرهنگ روشن — نسخۀ آموزشی</p>
+  </footer>
+
+</body>
+</html>
